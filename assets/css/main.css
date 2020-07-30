@@ -1841,17 +1841,17 @@ input, select, textarea {
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
-		font-size: 0.6em;
-		font-weight: bold;
-		height: calc(4.75em + 2px);
-		letter-spacing: 0.25em;
-		line-height: 4.75em;
+		font-size: 1em;
+		/* font-weight: bold; */
+		/* height: calc(4.75em + 2px);*/
+		letter-spacing: 0.15em;
+		/*line-height: 4.75em; */
 		outline: 0;
-		padding: 0 3.75em;
+		padding: 1em 2em;
 		position: relative;
 		text-align: center;
 		text-decoration: none;
-		text-transform: uppercase;
+		/* text-transform: capitalize; */
 		white-space: nowrap;
 	}
 
@@ -1869,7 +1869,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.2s ease, -webkit-transform 0.2s ease;
 			-ms-transition: opacity 0.2s ease, -ms-transform 0.2s ease;
 			transition: opacity 0.2s ease, transform 0.2s ease;
-			background: #ffffff;
+			background: #ff0101;
 			border-radius: 3em;
 			content: '';
 			height: 100%;
@@ -3025,7 +3025,7 @@ input, select, textarea {
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(49, 36, 80, 0.9);
+				background: rgba(255, 255, 255, 0.9);
 				content: '';
 				display: block;
 				height: 100%;
