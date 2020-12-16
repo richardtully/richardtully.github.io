@@ -3008,6 +3008,7 @@ input, select, textarea {
 
 		.spotlights > section > .image {
 			background-position: center center;
+			background-repeat: no-repeat;
 			background-size: contain ;
 			border-radius: 0;
 			display: block;
@@ -3025,7 +3026,7 @@ input, select, textarea {
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(255, 255, 255, 0.9);
+				background: rgba(255, 255, 255);
 				content: '';
 				display: block;
 				height: 100%;
